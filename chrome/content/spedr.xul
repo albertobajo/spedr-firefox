@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<overlay id="spedr" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<script type="application/x-javascript" src="chrome://spedr/content/spedr.js" />
+
+	<hbox id="urlbar-icons">
+		<image id="spedr-button" class="urlbar-icon" insertbefore="feed-button" tooltiptext="Shorter" src="chrome://spedr/skin/icon11.png"
+			onclick="com.spedr.package.spedr.url_short();" onmouseover="com.spedr.package.urlbar_icon.mouseOver();" onmouseout="com.spedr.package.urlbar_icon.mouseOut();"/>		
+	</hbox>
+
+</overlay>

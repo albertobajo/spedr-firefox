@@ -1,0 +1,3 @@
+content	spedr	chrome/content/
+skin spedr default chrome/skin/
+overlay chrome://browser/content/browser.xul chrome://spedr/content/spedr.xul
